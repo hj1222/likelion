@@ -1,0 +1,127 @@
+.wrap{
+    width: 1250px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+}
+.h_left{
+    width: 200px;
+    height: 100px;
+    background-color: #CCCCCC;
+}
+.h_right{
+    width: 1050px;
+    height: 100px;
+    background-color: #3B5A42;
+}
+main{
+    width: 100%;
+    height: 880px;
+    background-color: #DCD7CB;
+    position: relative;
+}
+.top{
+    width: 1150px;
+    height: 400px;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    display: flex;
+}
+.tlt{
+    width: 700px;
+    height: 190px;
+    background-image: url(img/layout3_1.png);
+}
+.tlb{
+     width: 700px;
+    height: 190px;
+    background-image: url(img/layout3_3.png);
+    bottom: 0px;
+    position: absolute;
+}
+.t_right{
+    position: absolute;
+    right: 0px;
+    width: 400px;
+    height: 400px;
+    background-image: url(img/layout3_2.png);
+}
+.bot{
+    width: 1150px;
+    height: 320px;
+    bottom: 50px;
+    left: 50px;
+    position: absolute;
+    display: flex;
+}
+.b_left{
+    width: 485px;
+    height: 320px;
+    position: absolute;
+}
+.blt{
+    display: flex;
+    
+}
+.blt1{
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+    position: absolute;
+}
+.blt2{
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+    left: 167.5px;
+    position: absolute;
+
+}
+.blt3{
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+    right: 0px;
+    position: absolute;
+}
+.blb{
+    display: flex;
+    top: 170px;
+    left: 0px;
+    position: absolute;
+}
+.blb1{
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+    position: absolute;
+}
+.blb2{
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+    left: 167.5px;
+    position: absolute;
+
+}
+.blb3{
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+    position: absolute;
+    left:335px;
+}
+.b_right{
+    position: absolute;
+    right: 0px;
+    width: 615px;
+    height: 320px;
+    background-color: #588158;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #334E41;
+}
