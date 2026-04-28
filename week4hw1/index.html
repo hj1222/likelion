@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+    <header>
+        <div class="banner">
+        <h1>NexusFlow</h1>
+        <nav>
+            <div class="menu_item">
+            <div class="menu"></div>
+            <button class="btn">About Us</button>
+            <div class="sub-menu">Vision<br>History<br>Contact Us<br></div>
+            </div>
+
+            <div class="menu_item">
+            <div class="menu"></div>
+            <button class="btn">Solutions</button>
+            <div class="sub-menu">Services<br>Products<br>Business<br></div>
+            </div>
+
+            <div class="menu_item">
+            <div class="menu"></div>
+            <button class="btn">News</button>
+            <div class="sub-menu">Release<br>Notice<br>Media<br></div>
+            </div>
+
+            <div class="menu_item">
+            <div class="menu"></div>
+            <button class="btn">Careers</button>
+            <div class="sub-menu">Core Value<br>Join Us<br>Life at<br></div>
+            </div>
+
+        </nav>
+        </div>
+        
+    </header>
+    <main>
+        <div class="img1">
+                <img src="img/img1.png" alt="img1" id="img1">
+                <p id="p1">Leading the Future with Innovation</p>
+                <p id="p2">Beyond the Best, Towards the Next</p>
+        </div>
+        
+        <div class="main1">
+            <button id="Notice" class="main1_menu">Notice</button>
+            <button id="Press" class="main1_menu">Press Release</button>
+            <button class="main1_menu">Media Assets</button>
+        </div>
+            <div id="Notice_sub">
+                <div class="notice-item">
+                <span>[Update] Revision of Terms and Conditions for</span>
+                <span class="date">2026.02.14</span>
+                </div>
+                <div class="notice-item">
+                <span>[Launch] Introducing NexusFlow Enterprise: Built for Scale </span>
+                <span class="date">2026.02.03</span>
+                </div>
+                <div class="notice-item">
+                <span>[Career] We’re Hiring: Join Our Global Tech & Design Team </span>
+                <span class="date">2026.02.05</span>
+                </div>
+                <div class="notice-item">
+                <span>[Insights] 2026 Digital Workflow & Productivity Trend Report</span>
+                <span class="date">2026.02.04</span>
+                </div>
+                <div class="notice-item">
+                <span>[Notice] NexusFlow Global Headquarters Relocation Announcement</span>
+                <span class="date">2026.02.03</span>
+                </div>
+                <div class="notice-item">
+                <span>[Maintenance] Scheduled System Optimization & Server Maintenance</span>
+                <span class="date">2026.01.31</span>
+                </div>
+            </div>
+            <div class="main2">
+                <h1>NexusFlow</h1>
+            </div>
+            <div class="main3">
+
+                <div class="item">
+                <img src="img/img2.png" alt="">
+                <p class="title">Mission</p>
+                <p class="content">Innovate human production value with seamless work flow.</p>
+                </div>
+
+                <div class="item">
+                <img src="img/img3.png" alt="">
+                <p class="title">Vision</p>
+                <p class="content">Global #1 Digital Workflow Partner.</p>
+                </div>
+
+                <div class="item">
+                <img src="img/img4.png" alt="">
+                <p class="title">Values</p>
+                <p class="content">Challenges for innovation, data-driven trust, user-centric</p>
+                </div>
+
+                </div>
+                <div class="main4">
+                    <p>NexusFlow believes in the value of "connectivity" and "flow". </p>
+                    <p>It brings fragmented work processes together in a complex business environment and</p>
+                    <p> provides the best workflow for all members to reach their potential without being blocked.</p>
+                    <br>
+                    <p>Based on our own algorithm and intuitive UX, we have presented the answer to digital transformation </p>
+                    <p>to more than 10,000 companies around the world. With NexusFlow, work is simpler and performance is clearer.</p>
+                    <p>With the best technology, I will take your business to the next step</p>
+                </div>
+             
+        
+    </main>
+    <footer>
+        <p id="foot">Terms of Service | Privacy Policy | Cookies | Contact Us</p>
+    </footer>
+    </div>
+
+    <script>
+        const btns=document.querySelectorAll('.btn');
+        const subMenus=document.querySelectorAll('.sub-menu');
+
+        btns.forEach((eachBtn) => {
+        eachBtn.addEventListener("click", function() {
+            subMenus.forEach((menu) => {
+                menu.classList.toggle('active');
+            });
+        });
+    });
+
+    const NoticeBtn=document.getElementById('Notice');
+    const NoticeSub=document.getElementById('Notice_sub');
+
+    NoticeBtn.addEventListener('click', function(){
+        NoticeSub.classList.toggle('active');
+    });
+
+    </script>
+</body>
+</html>
+
