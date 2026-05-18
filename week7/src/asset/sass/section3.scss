@@ -1,0 +1,35 @@
+.section3_wrap{
+    width: 1920px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    align-items: center;
+    margin: 216px 0px;
+    img{
+            width: 720px;
+            height: 445px;
+    }
+    .part1, .part2, .part3{
+        display: flex;
+        gap: 120px;
+        height: 445px;
+        #content{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            transform: translateY(104px);
+            line-height: 1;
+        }
+        h3{
+            font-size: 50px;
+            margin: 0;
+            font-weight: 500;
+        }
+        p{
+            font-size: larger;
+        }
+    }
+    
+}
+

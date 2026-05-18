@@ -1,0 +1,96 @@
+@import "pretendard/dist/web/static/pretendard.css";
+
+.section1_wrap {
+    width: 1920px;
+    height: 850px;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .center {
+        width: 1056px;
+        height: 265px;
+        gap: 20px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: 'Pretendard', sans-serif;
+    }
+
+    .first {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        z-index: 100;
+        position: relative;
+        justify-content: space-between;
+        height: 75px;
+
+        h2 {
+            font-size: 105px;
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+        }
+
+        >img {
+            width: 440px;
+            height: 75px;
+        }
+    }
+
+    .second {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        z-index: 100;
+        position: relative;
+        justify-content: space-between;
+        height: 75px;
+
+        h2 {
+            font-size: 105px;
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+        }
+
+        #image2 {
+            width: 600px;
+            height: 75px;
+        }
+
+        #image3 {
+            width: 275px;
+            height: 75px;
+        }
+    }
+
+    .third {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        z-index: 100;
+        position: relative;
+        justify-content: space-between;
+        height: 75px;
+
+        h2 {
+            font-size: 105px;
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+        }
+
+        >img {
+            width: 620px;
+            height: 75px;
+        }
+    }
+}

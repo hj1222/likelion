@@ -1,0 +1,23 @@
+.nav_wrap{
+    width: 1380px;
+    height: 80px;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 270px;
+   
+    .logo{
+    width: 165px;
+    height: 18px;
+    z-index: 100;
+    }
+
+    .menu{
+    color: #fff;
+    display: flex;
+    gap: 40px;
+    font-weight: bold;
+    }
+
+}

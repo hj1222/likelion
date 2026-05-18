@@ -1,0 +1,73 @@
+@import "pretendard/dist/web/static/pretendard.css";
+
+.section5_wrap{
+    font-family: 'Pretendard', sans-serif;
+    width: 1920px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 209px;
+    .likelion{
+        font-weight: 700;
+        font-size: 20px;
+        color: #FF7710;
+        margin: 0;
+        margin-top: 145px;
+    }
+    .maintitle{
+        margin: 0;
+        font-weight: 600;
+        font-size: 48px;
+        margin-top: 25px;
+    }
+    .box{
+        display: flex;
+        margin-top: 83px;
+        gap: 30px;
+        img{
+            width: 290px;
+            height: 180px;
+        }
+        .box1, .box2, .box3, .box4{
+            width: 290px;
+            height: 430px;
+            background-color: #F5F5F5;
+            position: relative;
+        }
+        #content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 21px 25px 23px 25px;
+            #title{
+                margin: 0;
+                font-weight: 600;
+                font-size: 18px;
+            }
+            #detail{
+                font-weight: 400;
+                font-size: 16px;
+                margin-top: 14px;
+                color: #737373;
+            }
+            #date{
+                position: absolute;
+                bottom: 24px;
+                margin: 0;
+                font-weight: 600;
+                font-size: 14px;
+                color: #A6A6A6;
+            }
+            #border{
+                border: solid 2px #E3E3E3;
+                width: 237px;
+                margin: 0;
+                position: absolute;
+                bottom: 63px;
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@import "pretendard/dist/web/static/pretendard.css";
+
+div{
+    .section2_wrap{
+    width: 1920px;
+    height: 530px;
+    margin: 0;
+    padding: 0;
+    background-color: #FF7710;
+    font-family: 'Pretendard', sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    p{
+        font-weight: bold;
+    }
+    #p1{
+        font-size: 18px;
+        position: absolute;
+        top:141px;
+        transform: translateY(50%);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #p2{
+        font-size: 36px;
+        position: absolute;
+        top:243px;
+        text-align: center;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #p3{
+        font-size: 36px;
+        position: absolute;
+        top:305px;
+        text-align: center;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+}
