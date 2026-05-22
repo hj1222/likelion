@@ -1,0 +1,76 @@
+.Section1_wrap {
+    width: 1920px;
+    height: 950px;
+    margin: 0 auto;
+    margin-top: -83.95px;
+
+    .background {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        // position: relative;
+        z-index: -100;
+        transition: all 0.3s ease;
+
+    }
+
+    .slide {
+        margin-top: 30px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 40px;
+        .slidebar {
+            width: 1500px;
+            height: 2px;
+            background-color: #B0B0B0;
+            display: flex;
+            .bar{
+                flex: 1;
+                height: 100%;
+                transition: all 0.3s ease;
+                background-color: transparent;
+                &.active{
+                    background-color: #fff;
+                }
+            }
+        }
+        button{
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+       
+    }
+
+    .font {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        // position: absolute;
+        margin-top: -250px;
+        margin-left: 177px;
+
+        h2 {
+            font-weight: 600;
+            font-size: 60px;
+            margin: 5px;
+        }
+
+        .border {
+            width: 160px;
+            height: 50px;
+            border: solid 2px #fff;
+            border-radius: 30px;
+            cursor: pointer;
+
+            p {
+                font-weight: 500px;
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+        
+    }
+}

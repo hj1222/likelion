@@ -1,0 +1,18 @@
+.footer_wrap{
+    width: 1920px;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    margin: 0 auto;
+    .logo{
+        width: 100px;
+        margin-top: 45px;
+        margin-left: 51px;
+    }
+    .img{
+       width: 1901px; 
+       height: 390px;
+       object-fit: cover;
+    }
+}

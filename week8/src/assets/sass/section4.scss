@@ -1,0 +1,22 @@
+.section4_wrap{
+    width: 1920px;
+    margin: 0 auto;
+   padding-bottom: 216px;
+    p{
+        font-weight: 700;
+        font-size: 34px;
+        color: #000000;
+        margin-top: 193px;
+        margin-left: 1623px;
+    }
+    .img{
+        margin: 19px 101px;
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+        .top, .bot{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
