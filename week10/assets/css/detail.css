@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+@import url(./setting/common.css);
+@import url(./setting/reset.css);
+@import url(./setting/var.css);
+
+.price {
+    color: #DD8560;
+    font-size: 18px;
+}
+
+.section1 {
+    width: 375px;
+}
+
+.section1>img {
+    width: 343px;
+    height: 460px;
+    margin: 20px 16px 15px 16px;
+}
+
+.dot {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+}
+
+.dot1,
+.dot2 {
+    width: 5.66px;
+    height: 5.66px;
+    border: #888888 solid 0.5px;
+    rotate: calc(45deg);
+}
+
+.dot1 {
+    background-color: #888888;
+}
+
+.section1>h4 {
+    margin-left: 15px;
+    font-weight: 400;
+    margin-bottom: 4px;
+
+}
+
+.mohan {
+    letter-spacing: 4px;
+}
+
+.recycle {
+    color: #555555;
+    letter-spacing: 0px;
+    margin-bottom: 4px;
+}
+.bot{
+    margin: 18px 16px;
+    display: flex;
+    gap: 35px;
+}
+.bot p{
+    color: #555555;
+}
+.color{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.circle1, .circle2, .circle3{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.bcircle{
+    width: 22.24px;
+    height: 22.24px;
+    border-radius: 50%;
+    border: #888888 solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle1{
+    background-color: #0F140D;
+}
+.circle2{
+    background-color: #DD8560;
+}
+.circle3{
+    background-color: #E1E0DB;
+}
+.size{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.size > ul{
+    font-size: 10px;
+    width: 24px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 24px;
+    border: 0.5px solid #DEDEDE;
+    border-radius: 50%;
+}
+.s{
+    background-color: #333333;
+    color: #F9F9F9;
+}
+
+.add{
+    margin-top: 25px;
+    width: 100%;
+    height: 56px;
+    background-color: #000000;
+    padding: 17px 14px 16px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add > img{
+    width: 24px;
+    height: 24px;
+}
+.add > h5{
+    color: #FCFCFC;
+    letter-spacing: 1%;
+}
+
+.section2{
+    margin-top: 24px;
+    padding: 13px 16px 36px 20px;
+}
+.section2_1, .section2_2{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.title{
+    letter-spacing: 2px;
+    color: #000000;
+}
+.content{
+    color: #555555;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+.section2_1{
+    margin-bottom: 30px;
+}
+.section2_2{
+    margin-bottom: 14px;
+}
+.section2_3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.line{
+    display: flex;
+    gap: 12.5px;
+    align-items: center;
+}
+.line > img{
+    width: 24px;
+    height: 24px;
+}
+.line > h5{
+    color: #555555;
+}
+.section2_4{
+    margin-top: 42px;
+    margin-bottom: 36px;
+}
+.section2_4 > h5{
+    letter-spacing: 2px;
+    margin-bottom: 21px;
+}
+.left  img{
+    width: 24px;
+    height: 24px;
+}
+.left1 img{
+    width: 24px;
+    height: 24px;
+}
+.box > img{
+    width: 14px;
+    height: 7px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding-top: 0px;
+}
+.left{
+    display: flex;
+    gap: 10.5px;
+    align-items: center;
+}
+.left > h5{
+    color: #000000;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+.text > p{
+    font-size: 14px;
+    color: #555555;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+.left1{
+     display: flex;
+    gap: 10.5px;
+    align-items: start;
+
+}
+.section3{
+    margin-top: 25px;
+    margin-bottom: 22px;
+}
+.section3 > h3{
+    
+    line-height: 40px;
+}
+.top{
+    padding: 20px 17px 0 16px;
+    display: flex;
+    gap: 12px;
+}
+.cloth{
+    width: 165px;
+    height: 220px;
+    position: relative;
+    margin-bottom: 8px;
+}
+.section3_title{
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #000000;
+}
+.section3_content{
+    color: #555555;
+    letter-spacing: 0px;
+    line-height: 18px;
+}
+.price1{
+    color: #DD8560;
+    font-size: 15px;
+    line-height: 24px;
+}
+.border{
+    width: 306px;
+    height: 1px;
+    border-bottom: #555555 solid 1px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}

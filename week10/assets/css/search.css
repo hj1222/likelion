@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@import url(./setting/common.css);
+@import url(./setting/reset.css);
+@import url(./setting/var.css);
+
+
+.container{
+    padding-left: 16px;
+    padding-right: 45px;
+    height: 640px;
+}
+.top {
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #555555 solid 1px;
+}
+.left{
+    display: flex;
+    gap: 12px;
+}
+.top  p{
+    font-size: 14px;
+    line-height: 34.5px;
+}
+.close {
+    width: 24px;
+    height: 24px;
+
+}
+
+h5{
+    margin-top: 11px;
+    letter-spacing: 0px;
+    line-height: 34.5px;
+    color: #888888;
+}
+h4{
+    line-height: 34.5px;
+    letter-spacing: 0px;
+    color: #000000;
+}

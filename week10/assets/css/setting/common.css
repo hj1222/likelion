@@ -1,0 +1,98 @@
+
+
+button,
+a {
+    cursor: pointer;
+    background-color: var(--none);
+}
+
+body {
+    background-color: #404040;
+    display: flex;
+}
+
+.container{
+    width: 375px;
+    /* height: 932px; */
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    margin: 0 auto;
+}
+header{
+    margin: 22.75px 16px;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+.logo{
+    width:70px;
+    height: 35px;
+
+}
+header  button{
+    width: 24px;
+    height: 24px;
+}
+.right{
+    display: flex;
+    gap: 16px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.none {
+    display: none !important;
+}
+
+input {
+    outline: none;
+}
+.bar{
+    width: 125px;
+    height: 9px;
+    display: flex;
+    margin: 5px auto;
+  
+}
+
+.sns{
+    margin-top: 40px;
+    margin-left: 106px;
+    margin-right: 106px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.sns > img{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.detail > p{
+    margin: 18px 95px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.detail_bot{
+    margin: 32px 58px 20px 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #C4C4C4;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail_bot > a{
+    font-size: 12px;
+    font-family: var(--mainfont);
+}
